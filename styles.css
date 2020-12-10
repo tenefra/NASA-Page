@@ -1,8 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 body {
   margin: 0;
+  font-family: "Heebo", sans-serif;
+}
+
+header {
+  background-image: url("./images/space.jpg");
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  background-repeat: round;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-container {
   height: 100vh;
-  background-color: red;
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  font-size: 140px;
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+
+main {
+  display: flex;
+  margin: 25px 0 0 0;
+  padding: 0px 80px 60px 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #e6e6e6;
+}
+
+h3 {
+  flex-direction: column;
+  color: #020202;
+  font-size: 30px;
+  font-weight: 800;
+  margin-block-end: 0.6em;
+}
+
+p {
+  color: #020202;
+  font-weight: 200;
+  font-size: 20px;
+  margin-block-start: 0.2em;
+  margin-block-end: 0.2em;
+}
+
+textarea {
+  resize: none;
+  border: none;
+  width: 300px;
+}
+
+input {
+  display: block;
+  border: none;
+}
+
+label {
+  color: #020202;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.btn-submit {
+  background: #4d4d4d;
+  padding: 7px 20px;
+  color: white;
+  border: none;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.input-name {
+  width: 300px;
+  height: 30px;
 }
